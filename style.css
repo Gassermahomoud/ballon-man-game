@@ -1,0 +1,28 @@
+body{
+    background: #ff6b4a ;
+
+}
+.box{
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%,-50%);
+
+}
+.box a{
+    display: inline;
+    padding: 11px 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+    margin: 5%;
+
+}
+.box a:hover{
+    color: #000;
+    background: #0048BA	;   
+    box-shadow: 0 0 5px #000, 0 0 25px #0048BA, 0 0 50px #0048BA	, 0 0 100px #0048BA;  
+
+}
